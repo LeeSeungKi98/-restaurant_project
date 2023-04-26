@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project/css/style03.css">
+</head>
+<body>
+    <div id="logo" onclick="location.href='index.html'">
+        LSK Restaurant
+    </div>
+    <h1>예약하기</h1>
+    <hr>
+    <form action="" method="">
+        <ul id="box">
+            <li>
+                <ul class="item">
+                    <li class="item1">성함</li>
+                    <li class="item2"><input type="text" name="name"></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="item">
+                    <li class="item1">전화번호</li>
+                    <li class="item2"><input type="text" name="tel"></li>
+                </ul>
+            </li>
+            <li>
+            <ul class="item">
+                <li class="item1">인원</li>
+                <li>
+                    <select>
+                        <option>1명</option>
+                        <option>2명</option>
+                        <option>3명</option>
+                        <option>4명</option>
+                        <option>5명</option>
+                        <option>6명</option>
+                        <option>7명</option>
+                        <option>8명</option>
+                    </select>
+                </li>
+            </ul>
+        </li>
+        <li>
+        <ul class="item">
+            <li class="item1">날짜</li>
+            <li class="item2">
+                <input type="date" name="date" max="2023-01-26" min="2022-12-26" placeholder="2022-12-26">
+            </li>
+        </ul>
+        </li>
+        <li>
+            <ul class="item">
+                <li class="item1">시간</li>
+                <li class="item2">
+                    <input type="time" name="time">
+                </li>
+            </ul>
+            </li>
+        <li>
+            <ul class="item">
+                <li class="item1">요청사항</li>
+                <li class="item2"><input type="text" name="request"></li>
+            </ul>
+        </li>
+        <li>
+                <button type="submit" value="예약하기">예약하기</button>
+        </li>
+        </ul>
+    </form>
+    <footer>
+        <h3>예약현왕</h3>
+        <hr>
+            <ur class="container">
+                <li class="name">성함
+                    <input type="text" name="name1" value="임창정님" readonly>
+                    <input type="text" name="name1" value="홍길동님" readonly>
+                    <input type="text" name="name1" value="임꺽정님" readonly>
+                    <input type="text" name="name1" value="이승기님" readonly>
+                    <input type="text" name="name1" value="양동현님" readonly>
+                    <input type="text" name="name1" value="박현우님" readonly>
+                </li>
+                <li class="day">날짜
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                    <input type="text" name="name2" value="2022-12-25" readonly>
+                </li>
+                <li class="time">시간
+                    <input type="text" name="name3" value="오전:10:30" readonly>
+                    <input type="text" name="name3" value="오전:11:30" readonly>
+                    <input type="text" name="name3" value="오후:12:00" readonly>
+                    <input type="text" name="name3" value="오후:14:30" readonly>
+                    <input type="text" name="name3" value="오후:15:30" readonly>
+                    <input type="text" name="name3" value="오후:16:00" readonly>
+                </li>
+            </ur>
+        </hr>
+    </footer>
+</body>
+</html>

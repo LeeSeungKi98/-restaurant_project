@@ -1,0 +1,77 @@
+body {
+    background-color: #54647265;
+    imge;
+}
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h1, #box{
+    margin: 10px 10px 20px 50px;
+}
+h1 {
+    color: rgb(65, 44, 60);
+    font-size: 800%;
+}
+.item {
+    margin-right: 90px;
+    padding: 5px;
+}
+.item li {
+    display: inline-block;
+}
+.item1 {
+    width: 110px;
+}
+.item input, select {
+    width: 300px;
+    height: 40px;
+}
+button {
+    margin: 10px 0 0 25px;
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+    background-color: darkkhaki;
+    border-radius: 25%;
+}
+input:focus {
+    background-color: rgb(152, 164, 127);
+}
+input:disabled {
+    background-color: gray;
+}
+#logo {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo:hover {
+    color: blue;
+}
+footer{
+    height: 450px;
+    clear: both;
+    border: solid 1px black;
+}
+.container{
+    display: flex;
+}
+.name, .day, .time {      
+    margin: auto;
+    font-size: xx-large;
+}
+.name_menu, .day_menu, .time_menu {
+    margin: auto;
+}
+input {
+    display: block;
+
+}
+.name {
+    display: block;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #54647265;
+        }
+        header {
+            height: 150px;
+            font-size: 800%;
+            text-align: center;
+            color: gainsboro;
+        }
+        #logo:hover{
+            color: blue;
+        }
+        #logo {
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .cook {
+            display: flex;
+
+        }
+        .team {
+            text-align: center;
+        }
+        div {
+            margin: 50px auto;
+        }
+        img {
+            float: left;
+            margin: auto;
+            width: 350px;
+            height: 500px;
+        }
+        img:hover{
+            transition: transform 1s ease-in-out;
+            transform: scale(1.3)
+        }
+    </style>
+</head>
+<body>
+    <div id="logo" onclick="location.href='index.html'">
+        LSK Restaurant
+    </div>
+    <header>
+        Cook Team
+    </header>
+    <section>
+        <div class="cook">
+            <div class="team" onclick="location.href='chef1.html'"><img src="/project/images/chef5.jpg"></div>
+            <div class="team" onclick="location.href='chef2.html'"><img src="/project/images/chef6.jpg"></div>
+            <div class="team" onclick="location.href='chef3.html'"><img src="/project/images/chef4.jpg"></div>
+        </div>
+    </section>
+</body>
+</html>

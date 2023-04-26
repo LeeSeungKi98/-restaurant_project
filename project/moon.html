@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #54647265;
+        }
+        * {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .title{
+            font-size: 150%;
+            display:inline-block;
+            text-align: center;
+        }
+        .title1{
+            display: contents;
+        }
+        .content{
+            font-size: 150%;
+            display: inline-block;
+            text-align: center;
+        }
+        .content1 {
+            display: contents;
+        }
+        .title1 input {
+            width: 800px;
+            height: 100px;
+        }
+        .content1 input {
+            margin-top: 10px;
+            width: 800px;
+            height: 800px;
+        }
+        button {
+            margin-left: 5%;
+            width: 200px;
+            height: 50px;
+        }
+        button:hover {
+            color: aquamarine;
+        }
+        #logo {
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #logo:hover {
+            color: blue;
+        }
+        h1{
+            color: darkslateblue;
+            font-size: 300%;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo" onclick="location.href='index.html'">
+        LSK Restaurant
+    </div>
+    <h1>문의하기</h1>
+    <br>
+    <form action="" method="">
+        <div class="title">제목</div>
+            <div class="title1"><input type="text" name="title"></div><br>
+        <div class="content">내용</div>
+            <div class="content1"><input type="text" name="content"></div><br>      
+        <button>문의하기</button>
+    </form>
+</body>
+</html>
